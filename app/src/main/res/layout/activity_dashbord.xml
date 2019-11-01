@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFEB3B"
+              tools:context=".Dashbord" android:orientation="vertical">
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/cc"
+            tools:srcCompat="@drawable/cc"/>
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="produk"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="51dp">
+        <TextView
+                android:text="produk 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView9" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView8" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView6" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="105dp"
+                android:inputType="textPersonName"
+                android:text="jenis"
+                android:ems="10"
+                android:id="@+id/editText" android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="478dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/hp" android:id="@+id/imageView3"
+                android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="harga"
+                android:ems="10"
+                android:id="@+id/editText2" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="31dp">
+        <TextView
+                android:text="produk 6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView15" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView14" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_weight="1"/>
+        <TextView
+                android:text="produk 10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+        <TextView
+                android:text="jenis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView16" android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/ph" android:id="@+id/imageView5"
+                android:layout_weight="1"/>
+        <TextView
+                android:text="harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView17" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/button2"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:text="akun"/>
+
+        <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"/>
+    </LinearLayout>
+
+</LinearLayout>
